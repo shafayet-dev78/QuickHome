@@ -1,0 +1,290 @@
+/* here is comments */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Dancing Script', cursive;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Poppins', sans-serif;
+}
+a, a hover{
+	text-decoration: none;
+}
+/*	Globel CSS Start 	*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+/*	Globel CSS End 	*/
+
+.header{
+	width: 100%;
+	padding: 15px 0px;
+	float: left;
+	border-bottom: 1px solid #eee;
+}
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.menu li a{
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 15px;
+	color: #0F2656;
+	transition: 1s;
+}
+.menu li a:hover, .menu li a:focus{
+	color: #008AFF;
+}
+
+/*	online-business section CSS	*/
+
+.online-business{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	text-align: center;
+}
+.online-business h1{
+	font-size: 54px;
+	line-height: 64px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+.online-business h1 span{
+	color: #008AFF;
+}
+.online-business p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+/* Social Media Share Button CSS */
+.fbs{
+	width: 120px;
+	position: fixed;
+	top: 36%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.fbs:hover{
+	width: 120px;
+	position: fixed;
+	top: 36%;
+	right: -5px;
+}
+.tws{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.tws:hover{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -5px;
+}
+.lis{
+	width: 120px;
+	position: fixed;
+	top: 44%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.lis:hover{
+	width: 120px;
+	position: fixed;
+	top: 44%;
+	right: -5px;
+}
+.bes{
+	width: 120px;
+	position: fixed;
+	top: 48%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.bes:hover{
+	width: 120px;
+	position: fixed;
+	top: 48%;
+	right: -5px;
+}
+.ins{
+	width: 120px;
+	position: fixed;
+	top: 52%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.ins:hover{
+	width: 120px;
+	position: fixed;
+	top: 52%;
+	right: -5px;
+}
+.yts{
+	width: 120px;
+	position: fixed;
+	top: 56%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.yts:hover{
+	width: 120px;
+	position: fixed;
+	top: 56%;
+	right: -5px;
+}
+.pis{
+	width: 120px;
+	position: fixed;
+	top: 60%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.pis:hover{
+	width: 120px;
+	position: fixed;
+	top: 60%;
+	right: -5px;
+}
+
+
+/*	project-secton CSS 	*/
+.project-secton{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.project-secton .title{
+	font-size: 44px;
+	line-height: 54px;
+	font-weight: 700;
+	text-align: right;
+	color: #F15767;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+.project-secton .description{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: right;
+	color: #0F2656;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+.project-secton .title2{
+	font-size: 44px;
+	line-height: 54px;
+	font-weight: 700;
+	text-align: left;
+	color: #0F2656;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+/*	Creativity-Secton CSS 	*/
+
+.creativity-secton{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.inner-creativity{
+	width: 85%;
+	margin: 0px 15px;
+	float: left;
+	padding: 20px 15px;
+}
+.first-block{
+	background: #FDEBED;
+}
+.second-block{
+	background: #EBF9F4;
+}
+.third-block{
+	background: #FFF7E8;
+}
+.inner-creativity img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.inner-creativity h4{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 5px;
+}
+.inner-creativity p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 20px;
+}
+
+/*	Footer-Secton CSS 	*/
+
+.footer-secton{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+	text-align: center;
+}
+.footer-secton p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #94CFFF;
+}
+.footer-secton p a{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
