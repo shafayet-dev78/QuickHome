@@ -1,4 +1,4 @@
-/* here is comments */
+0/* here is comments */
 *{
 	margin: 0px;
 	padding: 0px;
@@ -217,41 +217,44 @@ a, a hover{
 .creativity-secton{
 	width: 100%;
 	float: left;
-	padding: 40px 0px;
+	padding: 10px 5px;
 }
 .inner-creativity{
-	width: 85%;
-	margin: 0px 15px;
+	width: 93%;
+	margin: 10px 15px;
 	float: left;
-	padding: 20px 15px;
+	padding: 10px;
 }
-.first-block{
+
+.first{
 	background: #FDEBED;
 }
-.second-block{
+.second{
 	background: #EBF9F4;
 }
-.third-block{
+.third{
 	background: #FFF7E8;
 }
+
 .inner-creativity img{
 	width: 100%;
 	height: 200px;
-	margin-bottom: 10px;
+	padding: 5px;
 }
 .inner-creativity h4{
 	font-size: 20px;
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: 500;
+	text-transform: capitalize;
 	color: #0F2656;
-	margin-bottom: 5px;
+	margin: 5px 15px;
 }
 .inner-creativity p{
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #0F2656;
-	margin-bottom: 20px;
+	margin: 0px 10px 25px 15px;
 }
 
 /*	Footer-Secton CSS 	*/
