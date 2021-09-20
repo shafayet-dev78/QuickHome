@@ -90,6 +90,35 @@ a, a hover{
 	color: #0F2656;
 	margin-bottom: 10px;
 }
+.business-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	margin: 0px auto;
+}
+.business-section h1{
+	font-size: 54px;
+	line-height: 64px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.business-section h1 span{
+	color: #008AFF;
+}
+.business-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.image{
+	width: 100%;
+	text-align: center;
+}
 /* Social Media Share Button CSS */
 .fbs{
 	width: 120px;
